@@ -19,6 +19,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("Failed to connect to the Ethereum client: %v", err)
 	}
+
 	// Instantiate the contract and display its name
 	// NOTE update the deployment address!
 
